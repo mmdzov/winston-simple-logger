@@ -25,7 +25,7 @@
       name: "cache",
       path: "cache/",
       stack: true,
-      format: winston.format.simple(),
+      format: winston.format.json(),
     },
   ],
 });
