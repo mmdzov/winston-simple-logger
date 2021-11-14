@@ -28,6 +28,16 @@ let log = new Log({
       stack: true,
       format: winston.format.json(),
     },
+    {
+      name: "Foo",
+      path: "foo/",
+      stack: true,
+    },
+    {
+      name: "Bar",
+      path: "Bar/",
+      stack: false,
+    },
   ],
 });
 
