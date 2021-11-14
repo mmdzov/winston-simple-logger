@@ -4,7 +4,7 @@
 
 **Notes**  
 
-- stack : When this is true Error (). Stack runs inside mesasge
+- stack : When this is true `new Error().stack` runs inside mesasge
 - name : The name of your collection is that with the method it provides you can create a log
 - path : Specifies the name of the log storage path
 
