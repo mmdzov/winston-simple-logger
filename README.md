@@ -13,7 +13,8 @@
 **Usage**
 - npm i winston
 
-```let log = new Log({
+```
+let log = new Log({
   collections: [
     {
       name: "db",
