@@ -17,11 +17,11 @@ type TLoggerOption = LoggerOptions & { level?: Level };
 
 type TReplaceOption =  TLevelType;
 
-type TLoggetMethods = {
-  [T in Level]: (replaceOptions?: TReplaceOption) => TLoggetMethods;
+type TLoggerMethods = {
+  [T in Level]: (replaceOptions?: TReplaceOption) => TLoggerMethods;
 };
 
-type TLoggerCollection = (options?: TLoggerOptions) => TLoggetMethods;
+type TLoggerCollection = (options?: TLoggerOptions) => TLoggerMethods;
 
 const logger = (loggerOptions: Partial<TLoggerOption>): Logger => {
   return winston.createLogger({
