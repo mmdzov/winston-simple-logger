@@ -51,4 +51,5 @@ let log = new WinstonSimpleLogger({
   log.cache().info({
     message: "you can see this message"
   })
-})()```
+})() 
+```
