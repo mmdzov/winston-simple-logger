@@ -14,7 +14,7 @@
 - npm i winston
 
 ```
-let log = new Log({
+let log = new WinstonSimpleLogger({
   collections: [
     {
       name: "db",
